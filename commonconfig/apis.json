@@ -1,0 +1,13 @@
+{
+  "port":8081,
+  "mode":"local",
+  "api":[
+    {
+      "path":"/login",
+      "handler":"com.vimensa.apis.handlers.LoginHandler",
+      "isPublic":true,
+      "roles":[],
+      "method":"POST"
+    }
+  ]
+}
